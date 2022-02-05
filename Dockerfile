@@ -7,7 +7,7 @@ LABEL version="0.1"
 LABEL description="This is custom Docker Image for iperf3."
 
 # Disable Prompt During Packages Installation
-ARG DEBIAN_FRONTEND=noninteractive
+# ARG DEBIAN_FRONTEND=noninteractive
 
 # Update Ubuntu Software repository
 RUN apt update
