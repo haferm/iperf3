@@ -17,7 +17,7 @@ RUN apt install -y iperf3
 RUN apt clean
 
 # Start iperf3 in Server Mode
-ENTRYPOINT ["iperf3 -s"]
+ENTRYPOINT iperf3 -s
 
 # Expose Port for the Application
 EXPOSE 5201
